@@ -13,7 +13,15 @@ Each skill lives in `skills/<skill-name>/` with a required `SKILL.md` (YAML fron
 
 ## Using these skills
 
-### Claude Code
+### Skills CLI
+
+Install skills directly using the [skills CLI](https://skills.sh/docs/cli):
+
+```bash
+npx skills add icyJoseph/agent-skills
+```
+
+### Claude Code (manual)
 
 Copy a skill directory to your personal or project skills folder:
 
