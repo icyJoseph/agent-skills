@@ -13,8 +13,27 @@ Each skill lives in `skills/<skill-name>/` with a required `SKILL.md` (YAML fron
 
 ## Using these skills
 
-1. Copy the **skill directory** (e.g. `skills/js-ts-performance-readability`) into your environment’s skills location. Where that is depends on your agent or tool—see its documentation.
-2. Products that support the [Agent Skills format](https://agentskills.io/specification) load skills by `name` and `description` from `SKILL.md`; no vendor-specific wiring in the skill files themselves.
+### Claude Code
+
+Copy a skill directory to your personal or project skills folder:
+
+```bash
+# Personal (available in all projects)
+cp -r skills/js-ts-performance-readability ~/.claude/skills/
+
+# Project-specific
+cp -r skills/js-ts-performance-readability .claude/skills/
+```
+
+Once installed, Claude Code will automatically use the skill when relevant, or you can invoke it directly with `/js-ts-performance-readability`.
+
+See [Claude Code skills documentation](https://docs.claude.com/en/docs/claude-code/skills) for more details.
+
+### Other tools
+
+Copy the **skill directory** (e.g. `skills/js-ts-performance-readability`) into your environment's skills location. Where that is depends on your agent or tool—see its documentation.
+
+Products that support the [Agent Skills format](https://agentskills.io/specification) load skills by `name` and `description` from `SKILL.md`; no vendor-specific wiring in the skill files themselves.
 
 ## Format (spec-aligned)
 
