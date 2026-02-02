@@ -1,7 +1,7 @@
 ---
 name: js-ts-business-crud-transforms
-description: Write JavaScript/TypeScript for business applications (frontend and backend) with CRUD, API integration, and data transforms that are correct, readable, and easy to trust. Use when building or reviewing features involving forms, API responses, list/detail views, aggregations, or request/response shaping so outputs need minimal inspection.
-compatibility: JavaScript or TypeScript; Node, Deno, or browser. Assumes ES2020+ (optional chaining, nullish coalescing, etc.). Common context: React/Next.js frontend, REST or RPC backends.
+description: "Write JavaScript/TypeScript for business applications (frontend and backend) with CRUD, API integration, and data transforms that are correct, readable, and easy to trust. Use when building or reviewing features involving forms, API responses, list/detail views, aggregations, or request/response shaping so outputs need minimal inspection."
+compatibility: "JavaScript or TypeScript; Node, Deno, or browser. Assumes ES2020+ (optional chaining, nullish coalescing, etc.). Common context: React/Next.js frontend, REST or RPC backends."
 metadata:
   author: icyJoseph
   version: "1.0"

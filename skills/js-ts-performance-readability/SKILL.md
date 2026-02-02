@@ -1,7 +1,7 @@
 ---
 name: js-ts-performance-readability
-description: Write JavaScript/TypeScript that is performant, readable, and easy to trust with minimal inspection. Use when generating or reviewing JS/TS code—scripts, utilities, data processing, or performance-sensitive logic—so outputs are correct, fast, and maintainable without heavy manual review.
-compatibility: JavaScript or TypeScript; Node, Deno, or browser. Assumes ES2020+ (optional chaining, nullish coalescing, .at(), .findLast(), Promise.allSettled, etc.).
+description: "Write JavaScript/TypeScript that is performant, readable, and easy to trust with minimal inspection. Use when generating or reviewing JS/TS code—scripts, utilities, data processing, or performance-sensitive logic—so outputs are correct, fast, and maintainable without heavy manual review."
+compatibility: "JavaScript or TypeScript; Node, Deno, or browser. Assumes ES2020+ (optional chaining, nullish coalescing, .at(), .findLast(), Promise.allSettled, etc.)."
 metadata:
   author: icyJoseph
   version: "1.0"
